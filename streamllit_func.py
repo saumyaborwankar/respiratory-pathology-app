@@ -5,7 +5,7 @@ import io
 import librosa
 import pickle 
 import numpy as np
-from tensorflow import keras
+import keras
 model = keras.models.load_model('model/model_kfold.h5')
 # from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 # from moviepy.editor import VideoFileClip, concatenate_videoclips
