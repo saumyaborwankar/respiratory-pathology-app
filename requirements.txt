@@ -3,5 +3,5 @@ streamlit==0.78.0
 Keras==2.2.5
 numpy==1.19.2
 Pillow==8.1.2
-tensorflow-cpu=1.13.1
+tensorflow-cpu==1.13.1
 h5py==2.10.0
