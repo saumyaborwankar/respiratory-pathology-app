@@ -6,7 +6,8 @@ import librosa
 import pickle 
 import numpy as np
 import keras
-import tensorflow as tf
+import tensorflow.compat.v1 as tf
+tf.disable_v2_behavior()
 model = keras.models.load_model('model/model_kfold.h5')
 # from moviepy.video.io.ffmpeg_tools import ffmpeg_extract_subclip
 # from moviepy.editor import VideoFileClip, concatenate_videoclips
